@@ -18,14 +18,9 @@ Of course the QWERTY International layout must serve many languages, but there i
 
 ## Manual installation
 
- - drop the layout in your ~/Library/Keyboard Layouts
+ - drop the `FrenchQwerty.bundle` file in your `~/Library/Keyboard Layouts`
  - select the layout in System Settings / Keyboard / Input Methods
-
-## Installer
-
- - Download the installer DMG from the release
- - Open the DMG and launch the installer
- - Drop the layout file on the installer window, and pick "Install for this user"
+ - **Note:** To complete the setup, you will need to create an icon file named `FrenchQwerty.icns` with an "FR" logo and place it in the `FrenchQwerty.bundle/Contents/Resources/` directory. I am unable to create this file myself.
 
 ## Selecting the layout 
 
