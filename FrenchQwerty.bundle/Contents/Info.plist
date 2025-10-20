@@ -5,22 +5,15 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.juliendorra.keyboardlayout.frenchqwerty</string>
 	<key>CFBundleName</key>
-	<string>French Qwerty</string>
+	<string>French – QWERTY</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
-	<key>CFBundlePackageType</key>
-	<string>BNDL</string>
-	<key>CFBundleSignature</key>
-	<string>????</string>
-	<key>KLInfo</key>
+	<key>KLInfo_French – QWERTY</key>
 	<dict>
-		<key>French – QWERTY</key>
-		<dict>
-			<key>TISInputSourceID</key>
-			<string>com.juliendorra.keyboardlayout.frenchqwerty.frenchqwerty</string>
-			<key>TISIconFile</key>
-			<string>FrenchQwerty.icns</string>
-		</dict>
+		<key>TISInputSourceID</key>
+		<string>com.juliendorra.keyboardlayout.frenchqwerty.frenchqwerty</string>
+		<key>TISIconFile</key>
+		<string>FrenchQwerty.icns</string>
 	</dict>
 </dict>
 </plist>
