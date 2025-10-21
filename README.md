@@ -18,8 +18,13 @@ Of course the QWERTY International layout must serve many languages, but there i
 
 ## Manual installation
 
- - drop the `FrenchQwerty.bundle` file in your `~/Library/Keyboard Layouts`
- - select the layout in System Settings / Keyboard / Input Methods
+1.  Drop the `FrenchQwerty.bundle` file into your `~/Library/Keyboard Layouts` directory.
+2.  **Important:** Run the following command in your Terminal to clear the keyboard layout cache. This ensures that macOS recognizes the new layout.
+    ```
+    sudo rm /System/Library/Caches/com.apple.IntlDataCache.le*
+    ```
+3.  Restart your computer.
+4.  After restarting, go to **System Settings > Keyboard > Input Sources**, click the **+** button, and you should now find **French-QWERTY** in the list.
 
 ## Selecting the layout 
 
